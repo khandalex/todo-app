@@ -26,7 +26,7 @@ h1 {
   margin-top: 60px;
   margin-bottom: 20px;
   font-size: 3rem;
-  font-weight: 650;
+  font-weight: 300;
   text-transform: uppercase;
   text-align: center;
   color: var(--accent-color);
@@ -44,7 +44,7 @@ h1 {
   width: 100%;
   background: none;
   border: 2px solid var(--secondary-color);
-  /* border-radius: 1000px; */
+  border-radius: 1000px;
   font: inherit;
   color: var(--text-color);
   caret-color: var(--accent-color);
@@ -63,7 +63,7 @@ form {
   height: 100%;
   padding: 0 30px;
   border: none;
-  /* border-radius: 1000px; */
+  border-radius: 1000px;
   font: inherit;
   font-weight: 600;
   color: var(--background);
@@ -73,7 +73,7 @@ form {
   margin-bottom: 10px;
   padding: 0 16px;
   background-color: var(--primary-color);
-  /* border-radius: 15px; */
+  border-radius: 1000px;
   display: flex;
   align-items: center;
 }
@@ -100,7 +100,7 @@ form {
 }
 .custom-checkbox {
   border: 2px solid var(--accent-color);
-  /* border-radius: 50%; */
+  border-radius: 50%;
   min-height: 20px;
   min-width: 20px;
   display: flex;
@@ -125,14 +125,15 @@ input[type="checkbox"] {
 }
 .last {
   color: var(--secondary-color);
-  font-size: 18px;
+  font-size: 15px;
   /* font-style: italic; */
-  text-align: left;
+
+  justify-content: center;
   display: flex;
   width: 100%;
 }
 .last p {
-  flex-grow: 1;
+  flex-grow: 0.5;
 }
 a {
   color: var(--secondary-color);

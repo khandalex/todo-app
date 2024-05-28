@@ -44,7 +44,7 @@ h1 {
   width: 100%;
   background: none;
   border: 2px solid var(--secondary-color);
-  border-radius: 1000px;
+  /* border-radius: 1000px; */
   font: inherit;
   color: var(--text-color);
   caret-color: var(--accent-color);
@@ -63,7 +63,7 @@ form {
   height: 100%;
   padding: 0 30px;
   border: none;
-  border-radius: 1000px;
+  /* border-radius: 1000px; */
   font: inherit;
   font-weight: 600;
   color: var(--background);
@@ -73,7 +73,7 @@ form {
   margin-bottom: 10px;
   padding: 0 16px;
   background-color: var(--primary-color);
-  border-radius: 15px;
+  /* border-radius: 15px; */
   display: flex;
   align-items: center;
 }
@@ -100,7 +100,7 @@ form {
 }
 .custom-checkbox {
   border: 2px solid var(--accent-color);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   min-height: 20px;
   min-width: 20px;
   display: flex;
